@@ -1,0 +1,42 @@
+version: "3.1"
+
+rules:
+- rule: Greet the user
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: Say goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Ask for service
+  steps:
+    - intent: book_appointment
+    - action: utter_ask_service
+
+- rule: Ask for date
+  steps:
+    - intent: provide_service
+    - action: utter_ask_date
+
+- rule: Ask for time
+  steps:
+    - intent: provide_date
+    - action: utter_ask_time
+
+- rule: Confirm details
+  steps:
+    - intent: provide_time
+    - action: utter_confirm_details
+
+- rule: Confirm appointment
+  steps:
+    - intent: confirm_appointment
+    - action: utter_confirmed
+
+- rule: Cancel appointment
+  steps:
+    - intent: cancel_appointment
+    - action: utter_canceled

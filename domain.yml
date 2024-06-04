@@ -1,0 +1,63 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - book_appointment
+  - ask_time
+  - provide_time
+  - ask_date
+  - provide_date
+  - ask_service
+  - provide_service
+  - confirm_appointment
+  - cancel_appointment
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_ask_service
+  - utter_ask_date
+  - utter_ask_time
+  - utter_confirm_details
+  - utter_confirmed
+  - utter_canceled
+  - utter_services
+  - utter_available_time
+  - utter_available_date
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+
+  utter_ask_service:
+    - text: "What type of appointment would you like to book?"
+
+  utter_ask_date:
+    - text: "Which date would you prefer for the appointment?"
+
+  utter_ask_time:
+    - text: "What time works best for you?"
+
+  utter_confirm_details:
+    - text: "Can you please confirm your appointment details?"
+
+  utter_confirmed:
+    - text: "Your appointment has been confirmed! See you then."
+
+  utter_canceled:
+    - text: "Your appointment has been canceled."
+
+  utter_services:
+    - text: "We offer a variety of services including haircuts, dental appointments, consultations, and spa sessions."
+
+  utter_available_time:
+    - text: "Our available time slots are 10 AM, 2 PM, and 4 PM."
+
+  utter_available_date:
+    - text: "Our available dates are June 1st, June 3rd, and June 5th."

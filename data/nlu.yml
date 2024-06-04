@@ -1,0 +1,101 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - have a nice day
+    - good night
+
+- intent: affirm
+  examples: |
+    - yes
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: book_appointment
+  examples: |
+    - I need to book an appointment
+    - Can I schedule a meeting?
+    - I want to make an appointment
+    - Schedule an appointment for me
+    - Book a slot for me
+
+- intent: ask_time
+  examples: |
+    - What time is available?
+    - What time slots do you have?
+    - When can I book an appointment?
+    - Available times for an appointment?
+
+- intent: provide_time
+  examples: |
+    - 10 AM
+    - Tomorrow at 2 PM
+    - Next Monday at 3
+    - Can we do it at 4 PM on Friday?
+    - I'd like it for 11 AM
+
+- intent: ask_date
+  examples: |
+    - What dates are available?
+    - When can I book it?
+    - Available dates for an appointment?
+
+- intent: provide_date
+  examples: |
+    - Tomorrow
+    - Next Monday
+    - June 5th
+    - The 10th of this month
+    - Next week
+
+- intent: ask_service
+  examples: |
+    - What services do you offer?
+    - What can I book an appointment for?
+    - Services available?
+
+- intent: provide_service
+  examples: |
+    - I need a haircut
+    - Can I book a dental appointment?
+    - I want to book a consultation
+    - A spa session
+
+- intent: confirm_appointment
+  examples: |
+    - Yes, that works
+    - Confirm the appointment
+    - That time is fine
+    - Book it
+    - Confirm
+
+- intent: cancel_appointment
+  examples: |
+    - I need to cancel my appointment
+    - Cancel the booking
+    - I want to cancel my appointment
+    - Please cancel my appointment

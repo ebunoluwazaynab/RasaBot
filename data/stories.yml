@@ -1,0 +1,43 @@
+version: "3.1"
+
+stories:
+- story: greet and book appointment
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: book_appointment
+    - action: utter_ask_service
+
+- story: provide service and ask time
+  steps:
+    - intent: provide_service
+    - action: utter_ask_date
+    - intent: provide_date
+    - action: utter_ask_time
+    - intent: provide_time
+    - action: utter_confirm_details
+
+- story: confirm appointment
+  steps:
+    - intent: confirm_appointment
+    - action: utter_confirmed
+
+- story: cancel appointment
+  steps:
+    - intent: cancel_appointment
+    - action: utter_canceled
+
+- story: ask about services
+  steps:
+    - intent: ask_service
+    - action: utter_services
+
+- story: ask available time
+  steps:
+    - intent: ask_time
+    - action: utter_available_time
+
+- story: ask available date
+  steps:
+    - intent: ask_date
+    - action: utter_available_date
