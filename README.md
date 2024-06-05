@@ -34,17 +34,12 @@ This project contains a Rasa chatbot with additional functionalities.
     rasa train
     ```
 
-2. **Run Actions Server**:
-    ```bash
-    rasa run actions
-    ```
-
-3. **Run the Chatbot**:
+2. **Run the Chatbot**:
     ```bash
     rasa shell
     ```
 
-4. **Run Rasa Server with API and CORS**:
+3. **Run Rasa Server with API and CORS**:
     ```bash
     rasa run --enable-api --cors "*"
     ```
