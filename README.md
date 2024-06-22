@@ -16,24 +16,17 @@ This project contains a Rasa chatbot with additional functionalities.
     cd RasaBot
     ```
 
-2. **Create a Virtual Environment**:
+2. **Create and Activate Virtual Environment**:
+   - *Windows:*
     ```bash
     python -m venv ./venv 
     .\venv\Scripts\activate
     ```
-To activate the virtual environment:
-
-- *Windows:*
-
-```sh
-.\venv\Scripts\activate
-```
-
-- *Linux and macOS:*
-
-```sh
-source ./venv/bin/activate
-```
+    - *Linux and macOS:*
+    ```bash
+    python -m venv ./venv
+    source ./venv/bin/activate
+    ```
 
 3. **Install Dependencies**:
     ```bash
