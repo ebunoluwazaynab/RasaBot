@@ -5,7 +5,7 @@ This project contains a Rasa chatbot with additional functionalities.
 ## Setup Instructions
 
 ### Prerequisites
-- Python 3.7+
+- Python 3.6 - 3.8
 - pip (Python package installer)
 
 ### Installation
@@ -49,8 +49,9 @@ This project contains a Rasa chatbot with additional functionalities.
 To integrate a chatbot widget, you can use the following repository:
 - **Chatbot Widget Repository**: [git clone https://github.com/JiteshGaikwad/Chatbot-Widget.git](https://github.com/JiteshGaikwad/Chatbot-Widget.git)
 
-### Additional Resources
-
+### Additional Resources & Links
+- [VS Code Editor](https://code.visualstudio.com/download)
+- [Python](https://www.python.org/downloads/release/python-3810/)
 - [Rasa Documentation](https://rasa.com/docs/)
 - [Rasa SDK Documentation](https://rasa.com/docs/rasa/sdk/)
 
